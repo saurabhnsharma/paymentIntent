@@ -1,15 +1,19 @@
 CLIENT SETUP
-1. Open sns-stripe/package.json
-2. Change REACT_APP_API_URL to the address of the server
-3. Change REACT_APP_STRIPE_PUBLIC_KEY to your Stripe public key
-4. Run 'npm run start' from sns-stripe/
+1. Switch directory sns-stripe
+2. Open package.json
+3. Change REACT_APP_API_URL to the address of the server
+4. Change REACT_APP_STRIPE_PUBLIC_KEY to your Stripe public key
+5. Run 'npm i -s react-scripts'
+6. Run 'npm run start'
 
 SERVER SETUP
-1. Open backend/.env
-2. Change STRIPE_PUBLISH_KEY to your Stripe public key
-3. Change STRIPE_SECRET_KEY to your Stripe secret key
-4. Change OUTPUT_FILE to where you want to keep the registry of payments
-5. Run 'npm run start' from backend/
+1. Switch directory to backend
+2. Open .env
+3. Change STRIPE_PUBLISH_KEY to your Stripe public key
+4. Change STRIPE_SECRET_KEY to your Stripe secret key
+5. Change OUTPUT_FILE to where you want to keep the registry of payments
+6. Run 'npm i -s babel-node'
+6. Run 'npm run start'
 
 STRIPE SETUP
 1. Go to your Stripe dashboard -> Developer view -> Webhooks view
