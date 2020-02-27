@@ -1,0 +1,12 @@
+- Love that my secret key was actually used in the doc examples!
+
+- Step 4 in the the tutorial doesn't give examples about how to get client
+  secret from the server. I placed it in CheckoutForm.js, which is where it
+  should probably go? But the submit handler in the tutorial doesn't really
+  mention it at all which caused me a little bit of confusion.
+
+- No CardSectionStyles.css in the tutorial (referenced in Step 3 example)
+
+- payment_method.attached doesn't exist but is in the Webhook example
+
+- would love if Events refreshed automatically on the Dashboard, altho it's nice that it says that a webhook is outstanding
