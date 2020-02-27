@@ -7,6 +7,8 @@
 
 - No CardSectionStyles.css in the tutorial (referenced in Step 3 example)
 
-- payment_method.attached doesn't exist but is in the Webhook example
+- would love if Events refreshed automatically on the Dashboard, altho it's
+  nice that it says that a webhook is outstanding
 
-- would love if Events refreshed automatically on the Dashboard, altho it's nice that it says that a webhook is outstanding
+- figuring out an efficient way to do environment variable processing on the
+  client side is a pain!

@@ -2,20 +2,17 @@ CLIENT SETUP
 1. Open sns-stripe/package.json
 2. Change REACT_APP_API_URL to the address of the server
 3. Change REACT_APP_STRIPE_PUBLIC_KEY to your Stripe public key
-4. Run 'npm start' from sns-stripe/
+4. Run 'npm run start' from sns-stripe/
 
 SERVER SETUP
-1. Open backend/src/.env
+1. Open backend/.env
 2. Change STRIPE_PUBLISH_KEY to your Stripe public key
 3. Change STRIPE_SECRET_KEY to your Stripe secret key
 4. Change OUTPUT_FILE to where you want to keep the registry of payments
-5. Run 'npm start' from backend/
+5. Run 'npm run start' from backend/
 
 STRIPE SETUP
 1. Go to your Stripe dashboard -> Developer view -> Webhooks view
-2. Add a webhook endpoint like '<server address>'/webhook
+2. Add a webhook endpoint: '<server address>'/webhook 
+    (e.g., http://localhost/webhook)
 3. Have it listen to at least 'payment_intent.succeeded'
-
-1. Make it use npm run
-2. git backup (removing variables)
-3. fix environment variable stuff
